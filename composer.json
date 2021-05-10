@@ -1,0 +1,13 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "digitalstars/simplevk": "dev-testing",
+        "symfony/dotenv": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Main\\": "Main",
+            "Requests\\": "Requests"
+        }
+    }
+}
